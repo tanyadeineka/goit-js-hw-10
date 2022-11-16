@@ -19,7 +19,16 @@ body {
   font: inherit;
   padding: 8px;
   max-width: 320px;
-  margin-bottom: 16px;
+  margin: 50px 0 16px 50px;
+  border-color: blue;
+  border-radius: 5px;
+}
+
+#search-box:hover,
+#search-box:focus {
+  width: 100%;
+  border-color: tomato;
+  border-radius: 5px;
 }
 
 .country-list {
