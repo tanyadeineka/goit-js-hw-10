@@ -24,11 +24,11 @@ body {
   border-radius: 5px;
 }
 
-#search-box:hover,
-#search-box:focus {
+#search-box:focus, #search-box:hover {
   width: 100%;
   border-color: tomato;
   border-radius: 5px;
+  outline-color: purple;
 }
 
 .country-list {
